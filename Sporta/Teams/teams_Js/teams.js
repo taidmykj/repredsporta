@@ -37,7 +37,7 @@ function collect() {
   let edit = `<div class="display-match"><h4><u>Clubs playing English Premier League</u> <sup>20</sup></p></div>`
   for (let team of epl) {
     edit += `<div class="team-det" id="${team[0]}" onclick="blink('${team[0]}')">
-        <img class="team-logo" alt="" src="../IMGs/svgs/ft/${getTeam(team[0], 'logo')}"/>
+        <img class="team-logo" alt="" src="../IMGs/SVGs/ft/${getTeam(team[0], 'logo')}"/>
         <p class="club-name">${getTeam(team[0], 'name')}</p>
         <p class="coach-p">Coach: <span class="coach-name">${getTeam(team[0], 'coach')}</span></p>
       </div>
