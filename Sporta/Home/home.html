@@ -12,7 +12,7 @@
 <script type="text/javascript" src="./home_Js/toolbar.js"></script>
 <script type="text/javascript" src="./home_Js/suggest.js"></script>
 <script type="text/javascript" src=""></script>
-<body onscroll="remove()">
+<body onscroll="remove()" onclick="remove()" >
     <div class="cover">
       <div id="barTool">
         <div id="bar" class="bar" onclick="toolbar()">
@@ -26,10 +26,10 @@
       </h1>
     </div>
   <div id="tool"></div>
-  <div class="search-bar" >
+  <div class="search-bar" onclick="remove()">
     <!--button class="exit" onclick="remove()">Exit</button-->
-    <input placeholder="Search for your club" oninput="search(this.value)"/>
-    <div id="sugg"></div>
+    <input placeholder="Search for your club" oninput="search(this.value)" onclick="remove()"/>
+    <div id="sugg" onclick="remove()"></div>
   </div>
    <div class="homePage toper" >
       <p class="contents">× Use the <a style="color: slateblue;" onclick="change()"><u>toolbar</u></a> at the top left to find  <span style="color: tomato">contents</span> of this page.</p>
@@ -52,7 +52,7 @@
     <br>&copy;2025<br><br>
     Follow/Contact us:
     <nav>
-      <img src="../IMGs/SVGs/telegram_Icon.svg" width="10%" alt="Telegram" style="margin-right: 10px;" onclick="window.location.href='https://t.me/@taid_myk_J_1611';">
+      <img src="../IMGs/SVGs/telegram_Icon.svg" width="10%" alt="Telegram" style="margin-right: 10px;" onclick="window.location.href='https://t.me/taid_myk_J_1611';">
       <img src="../IMGs/SVGs/github.svg" width="10%" alt="Github" style="margin-right: 10px;" onclick="window.location.href='https://github.com/taidmykj';">
       <img src="../IMGs/SVGs/whatsup.webp" width="10%" alt="Whatsapp" style="margin-right: 10px;" onclick="window.location.href='https://wa.me/254789925270?text=*Hi%Taid%Myk%J';">
       <img src="../IMGs/SVGs/text.webp" width="10%" alt="Phone" style="margin-right: 10px;" onclick="window.location.href='wa.me/254789925270';">
