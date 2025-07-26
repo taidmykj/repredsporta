@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #242424;
+  max-width: 1026px;
+}
+
+.bar {
+  margin-left: 10px;
+  height: 100px;
+  width: 120px;
+  background-color: #2e2e2e;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cover {
+  height: 7vh;
+  padding: 10px;
+  background-color: #131d24;
+  display: flex;
+  width: 100%;
+}
+
+.hr {
+  border: 6px solid lime;
+  margin-top: 10px; 
+}
+
+.one, .two {
+  border: 6px solid tomato;
+  opacity: 50%;
+}
+
+.one {
+  animation: crossdown 1s ease;
+}
+
+.two {
+  animation: crossup 1s ease;
+}
+
+@keyframes crossdown {
+  to {
+    transform: rotate(45deg);
+    opacity: 100%;
+    
+  }
+}
+
+@keyframes crossup {
+  to {
+    margin-top: -5px;
+    transform: rotate(-45deg);
+    opacity: 100%;
+  }
+}
+
+.done {
+  transform: rotate(45deg);
+  border: 6px solid tomato;
+  opacity: 100%;
+}
+
+.finish {
+  margin-top: -5px;
+  transform: rotate(-45deg);
+  border: 6px solid tomato;
+  opacity: 100%;o
+}
+
+.title {
+  color: azure;
+  border-bottom: 4px solid #23e45f;
+  text-align: center;
+  padding-top: 20px;
+  height: 5.5vh;
+  margin: -10px 0 0 30%;
+  font-size: 2.8rem;
+  transform: skew(-20deg);
+  font-weight: 1000;  
+}
+
+.leta1 {
+  color: tomato;
+  font-weight: 1000;
+  font-size: 2.9rem;
+}
+
+.leta2 {
+  color: aqua;
+}
+
+.sports {
+  font-size: 1.6rem;
+}
+
+.homePage {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #ccc;
+  color: #131d24;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.toper {
+  margin-top: 150px;
+}
+
+.contents {
+  color: #131d24;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.mover-tool {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: transparent;/*#242424;#eeefff;*/
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-top: 50px;
+  color: slateblue;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.svg {
+  margin: 15px;
+  color: ;
+}
+
+footer {
+  text-align: center;
+  padding: 20%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #242422;
+}
+
+/*Toolbar Animation*/
+.toolbar {
+  margin-top: 10vh;
+  height: 60vh;
+  width: 40%;
+  margin-left: -40%;
+  background-color: #131f32;/*#23e45f;*/
+  border-radius: 0 0 20px 0;
+  position: fixed;
+  overflow-y: auto;
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 1.3rem;
+}
+
+.move {
+  animation: moveout 1s ease;
+}
+
+@keyframes moveout {
+  to {
+    margin-left: 0%;
+  }
+}
+
+.dif {
+  margin-left: 0;
+  border: none;
+  font-size: 2rem;
+  
+}
+
+.dif-tool {
+  background-color: #131f32;
+  margin-top: 10px;
+  border-bottom: 3px solid #fff;
+}
+
+.mover {
+  margin-top: 10vh;
+  width: 40%;
+  height: 60vh;
+  background-color: #131f32;/*#23e45f;*/
+  border-radius: 0 0 20px 0;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: fixed;
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 1.3rem;
+}
+
+.clean {
+  height: 90vh;
+  width: 57%;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 41%;
+}
+
+.mover-tool hr {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.search-bar {
+  height: 5vh;
+  background-color: ;
+  width: 100%;
+  padding: 10px 0 0 10px;
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  height: 4.5vh;
+  width: 90%;
+  background-color: #eee;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.suggest {
+  min-height: 10vh;
+  max-height: 80vh;
+  position: fixed;
+  background-color: slategrey;
+  border-radius: 10px;
+  width: 95%;
+  text-align: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.value {
+  height: 2vh;
+  width: 90%;
+  background-color: ;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  padding: 10px;
+  text-align: left;
+  color: #131f32;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.no-result {
+  height: 5vh;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ccc;
+  padding: 15px;
+  
+}
+
+.exit {
+  margin-top: 15px;
+  height: 50px;
+  border: none;
+  width: 40%;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0 22px 24px 23px rgba(141, 145, 145, 0.6);
+}
