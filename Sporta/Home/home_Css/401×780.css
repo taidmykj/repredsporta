@@ -150,7 +150,7 @@ footer {
 .toolbar {
   margin-top: 10vh;
   height: 60vh;
-  width: 40%;
+  width: 80%;
   margin-left: -40%;
   background-color: #131f32;/*#23e45f;*/
   border-radius: 0 0 20px 0;
@@ -185,7 +185,7 @@ footer {
 
 .mover {
   margin-top: 10vh;
-  width: 40%;
+  width: 80%;
   height: 60vh;
   background-color: #131f32;/*#23e45f;*/
   border-radius: 0 0 20px 0;
