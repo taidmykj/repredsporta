@@ -1,0 +1,117 @@
+.search-bar {
+  position: relative;
+}
+
+.fix-table {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.inner-fix {
+  border-radius: 10px;
+  height:;
+  padding: 15px;
+  border: 1px solid slategrey;
+  overflow-y: ;
+  
+}
+
+.display-match {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  overflow-y: scroll;
+  white-space: pre;
+}
+
+.leag-type {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+}
+
+.leag {
+  height: 4.5vh;
+  border-radius: 10px;
+  border: none;
+  max-width: 40%;
+  min-width: 40%;
+  font-size: 1rem;
+  color: #131d24;
+  
+}
+
+.footer {
+  text-align: center;
+  padding: 10% 10% 5% 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #242422;
+  width: 92%;
+}
+
+.incomplete {
+  font-size: 0.8rem;
+  text-align: center;
+  height: 5vh;
+  color: tomato;
+}
+
+sup {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: tomato;
+  padding: 7px;
+  color: #fff;
+}
+
+h4 {
+  color: slateblue;
+}
+
+/*Team Detail Style */
+
+.team-det {
+  display:;
+  padding: 10px 10px 30px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.team-det:active {
+  background-color: #ccc;
+}
+.team-logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  border: none;
+  background-color: ;
+}
+
+.club-name {
+  font-size: 1.3rem;
+  margin-top : -60px;
+  margin-left: 75px;
+  color: slateblue;
+  text-decoration: 2px solid underline;
+}
+
+.coach-p {
+  margin-left: 75px;
+  font-weight: bolder;
+  font-size: 1rem;
+  opacity: 50%;
+  color: #131f32;
+}
+
+.coach-name {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #131f32;
+  opacity: 100%;
+}
